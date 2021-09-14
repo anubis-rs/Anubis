@@ -3,8 +3,7 @@ name = "hathor"
 version = "0.1.0"
 authors = ["Raphael O. <raphael.ob@protonmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/Anubis-rs/Anubis
-edition = "2021"
+repository = "https://github.com/Anubis-rs/Anubis"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
