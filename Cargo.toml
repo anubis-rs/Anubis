@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "anubis",
+    "hecate",
+    "hathor",
+]
