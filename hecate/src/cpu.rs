@@ -1,5 +1,5 @@
-use registers::*;
-use memory::*;
+use registers::CpuRegisters;
+use memory::Memory;
 
 pub struct Cpu {
     pub registers: CpuRegisters,
