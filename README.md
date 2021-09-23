@@ -6,7 +6,9 @@ The PS Vita is a very interesting system, which gave me the reason to write an e
 The individual components, such as the CPU JIT Compiler or the GPU emulation, are split into individual crates so that they can be easily used in other projects without having to drag the entire Anubis ecosystem into them.
 
 ## Components
-Coming soon
+ - [`anubis`](./anubis): The crate which combines all parts of the emulator
+ - [`hathor`](./hathor): GPU emulation crate which organizes all sort of shader recompilation and stuff
+ - [`hecate`](./hecate): Implementation of a dynamic recompiler for the CPU and therefore in my eyes the most important crate
 
 ## Setup
 Coming soon
