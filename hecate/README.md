@@ -5,7 +5,7 @@ This CPU implements the ARMv7-A architecture.
 ## About
 hecate aims to provide an easy-to-use interface to emulate the ARM-Cortex A9 CPU (in future there may be support for other ARM CPU's and architectures as well).
 Furthermore it will be possible to have multiple target architectures, this is made possible by the fact that the dynamic recompiler is not compiling directly to the target architecture but first into an IL, designed by ourselves, and then compiled further to the target machine code.
-The supported architectures are x86-64 and AArch64, but feel free to open A Pull Request to add another architecture.
+The supported architectures are x86-64 and AArch64, but feel free to open a PR to add another architecture.
 
 ## Building, Testing and Running
 TODO
