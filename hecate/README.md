@@ -5,7 +5,7 @@ This CPU implements the ARMv7-A architecture.
 ## About
 hecate aims to provide an easy-to-use interface to emulate the ARM-Cortex A9 CPU (in future there may be support for other ARM CPU's and architectures as well).
 Furthermore it will be possible to have multiple target architectures, this is made possible by the fact that the dynamic recompiler is not compiling directly to the target architecture but first into an IL, designed by ourselves, and then compiled further to the target machine code.
-The supported architectures are x86-64 and AArch64, but feel free to open a PR to add another architecture.
+Supported architectures are x86-64 and AArch64, but feel free to open a PR to add another architecture.
 
 ## Building, Testing and Running
 TODO
@@ -13,4 +13,4 @@ TODO
 ## License
 hecate is distributed like Anubis under the terms of either the Apache License (Version 2.0) or the MIT license, at the user's choice.
 See [LICENSE-APACHE](./LICENSE-APACHE) and [LICENSE-MIT](./LICENSE-MIT) for details.
-Contributions to the hecate must be made under the terms of both licenses.
+Contributions to hecate must be made under the terms of both licenses.
